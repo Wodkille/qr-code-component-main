@@ -1,0 +1,113 @@
+*{
+margin: 0;
+font-family: 'Outfit', sans-serif
+}
+
+.container{
+
+        margin: auto;
+        margin-top: 50px;
+        background-color: hsl(212, 45%, 89%);
+        display: grid;
+        grid-template-columns: 300px ;
+        grid-template-rows:  280px 80px 100px ;
+        height: 800px;
+        width: 1000px;
+        place-content: center;
+        border-radius: 30px;
+        box-shadow:
+        inset 0 -3em 3em rgba(0,0,0,0.1),
+              0.3em 0.3em 1em rgba(0,0,0,0.3);
+ 
+    
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: hsl(0, 0%, 100%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+.img1{
+    width: 270px;
+border-radius: 14px;
+margin-top: 10px;
+margin-left: 15px;
+}
+
+.som{
+  
+}
+
+.item2{
+    grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: hsl(0, 0%, 100%);
+}
+
+.item2 h1{
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.item3{
+    grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: hsl(0, 0%, 100%);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        
+}
+
+.p1{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+@media screen and (max-width: 375px ) {
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+    .container{
+padding: auto;
+        margin: auto;
+        margin-top: 50px;
+        background-color: hsl(212, 45%, 89%);
+        display: grid;
+        grid-template-columns: 310px ;
+        grid-template-rows:  280px 80px 120px ;
+        height: 500px;
+        width: 500px;
+        place-content: center;
+        border-radius: 35px;
+        box-shadow: none;
+    
+    
+}
+
+.img1{
+    width: 270px;
+border-radius: 14px;
+margin-top: 12px;
+margin-left: 20px;
+}
+
+}
